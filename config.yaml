@@ -8,12 +8,12 @@ languages:
     en:
         languageName: English
         title: mahaoliang.tech
-        description: mahaoliang.tech
+        description: "macOS,gaming,geek"
         weight: 2
     zh-cn:
         languageName: 中文
         title: mahaoliang.tech
-        description: mahaoliang.tech
+        description: "macOS,gaming,geek"
         weight: 1
 
 # Change it to your Disqus shortname before using
