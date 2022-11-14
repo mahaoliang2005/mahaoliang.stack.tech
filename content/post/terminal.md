@@ -10,7 +10,7 @@ categories: [tech]
 
 打开终端的**偏好设置**，点击**描述文件**tab，将 **Pro** 设置为默认描述文件。
 
-<img src="https://cdn.mazhen.tech/images/202206222053254.png" style="zoom:50%;" />
+![img](https://cdn.mazhen.tech/images/202206222053254.png)
 
 然后对 **Pro** 进行配置。
 
@@ -78,7 +78,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 重新开启终端，按照提示进行Powerlevel10k的样式配置，完成后，我们漂亮的命令行终端配置就大功告成了。
 
-![](https://cdn.mahaoliang.tech/images/202207231529094.png)
+![img](https://cdn.mahaoliang.tech/images/202207231529094.png)
 
 如果你在使用**VSCode**，需要在配置文件**settings.json**中设置下面两个配置，你就可以让**VSCode**的终端同样适配Powerlevel10k。
 
@@ -86,8 +86,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
  "terminal.integrated.fontSize": 14, 
  "terminal.integrated.fontFamily": "MesloLGS NF"
 ```
-
-
 
 ## 安装 zsh-autosuggestions 插件
 
@@ -109,9 +107,7 @@ plugins=(git zsh-autosuggestions)
 
 在键入命令时，会有灰色的提示信息，按 `→` 或 `ctrl-f` 自动完成。是不是非常方便，用过后就完全离不开了。
 
-<img src="https://cdn.mazhen.tech/images/202206261907246.png" style="zoom:67%;" />
-
-
+![img](https://cdn.mazhen.tech/images/202206261907246.png)
 
 ## 命令别名配置
 

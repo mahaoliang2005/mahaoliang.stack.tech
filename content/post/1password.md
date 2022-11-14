@@ -20,14 +20,13 @@ macOS的Safari插件直接在App Store安装。
 
 iOS上插件的安装请参考：[Get to know 1Password for Safari on your iPhone or iPad](https://support.1password.com/getting-started-safari-ios/)
 
-<img src="https://cdn.mazhen.tech/images/202206231710181.png" alt="safari" style="zoom:33%;" />
+![img](https://cdn.mazhen.tech/images/202206231710181.png)
 
-> 1. Open Safari to any website and tap <img src="https://cdn.mazhen.tech/images/202206231702042.png" alt="the Page Settings button" style="zoom:20%;" /> in  the address bar.
+> 1. Open Safari to any website and tap ![img](https://cdn.mazhen.tech/images/202206231702042.png) in  the address bar.
 >
 >    If you're using an iPad, tap ![the Extension button](https://cdn.mazhen.tech/images/202206231703369.svg) in the address bar.
 >
 > 2. Tap Manage Extensions and turn on 1Password, then tap Done.
-
 
 ## 关掉内置密码管理
 
@@ -53,20 +52,19 @@ iOS上插件的安装请参考：[Get to know 1Password for Safari on your iPhon
 > 2. Tap AutoFill Passwords.
 > 3. Turn off iCloud Keychain.
 >
-> <img src="https://cdn.mazhen.tech/images/202206231707380.jpg" alt="safari" style="zoom:30%;" />
-
+> ![img](https://cdn.mazhen.tech/images/202206231707380.jpg)
 
 ## iOS上App的支持
 
 iOS上app使用 1Password 的体验和 Safari 是一致的，只要app使用iOS系统标准键盘，在需要输入用户名和密码的地方，会自动出现钥匙图标，点击钥匙，会呼出1Password进行自动填充。
 
-<img src="https://cdn.mazhen.tech/images/202206231708210.png" alt="app" style="zoom:50%;" />
+![img](https://cdn.mazhen.tech/images/202206231708210.png)
 
 然而很多**国产银行类app**，基本都不使用iOS内置键盘，所以没法呼出1Password。这时候只能自己进入1Password 进行拷贝密码或创建密码的操作。
 
-## Universal Autofill 
+## Universal Autofill
 
-[Universal Autofill ](https://support.1password.com/mac-universal-autofill/) 是 [1Password 8](https://blog.1password.com/1password-8-for-mac/)的一个重大升级功能。Universal Autofill  实现了真正的「全局填充」。你只要记住一个快捷键 **Command + \\** ，就可以在浏览器、应用程序、终端和系统提示等任何地方，让 1Password 帮你自动完成密码填充。
+[Universal Autofill](https://support.1password.com/mac-universal-autofill/) 是 [1Password 8](https://blog.1password.com/1password-8-for-mac/)的一个重大升级功能。Universal Autofill  实现了真正的「全局填充」。你只要记住一个快捷键 **Command + \\** ，就可以在浏览器、应用程序、终端和系统提示等任何地方，让 1Password 帮你自动完成密码填充。
 
 ![autofill](https://blog.1password.com/posts/2022/1password-8-for-mac/universal-autofill-zoom.gif)
 
@@ -76,11 +74,9 @@ iOS上app使用 1Password 的体验和 Safari 是一致的，只要app使用iOS�
 
 如果1Password本身开启了两步认证，它就需要一个第三方的Authenticator，因为它不可能自己保存自己的one-time password，[官方文档](https://support.1password.com/two-factor-authentication/)已经说明。我选择了微软的[Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)。
 
-微软的Authenticator可以备份和恢复，在换手机时非常方便。另外使用 Authenticator 登录微软账号时体验很好，不需要输入密码，只用在手机上确认即可，体验类似扫码登录，但又不用扫码:) 
+微软的Authenticator可以备份和恢复，在换手机时非常方便。另外使用 Authenticator 登录微软账号时体验很好，不需要输入密码，只用在手机上确认即可，体验类似扫码登录，但又不用扫码:)
 
-<img src="https://cdn.mazhen.tech/images/202206231537685.JPG" alt="Authenticator" style="zoom:25%;" />
-
-
+![img](https://cdn.mazhen.tech/images/202206231537685.JPG)
 
 ## 管理SSH Keys
 
@@ -89,19 +85,18 @@ iOS上app使用 1Password 的体验和 Safari 是一致的，只要app使用iOS�
 ### 生成或导入SSH keys
 
 我们可以使用 `ssh-keygen` 命令自己生成 SSH key，也可以在 1Password 中创建SSH key 项目时自动生成。
-<img src="https://cdn.mazhen.tech/images/202207081432280.png" alt="ssh key" style="zoom: 33%;" />
+![img](https://cdn.mazhen.tech/images/202207081432280.png)
 
-
-### 开启1Password SSH Agent 
+### 开启1Password SSH Agent
 
 1Password SSH Agent 使用你保存在1Password中的 SSH Key，与你的Git和SSH工作流程无缝集成。它可以验证你的Git和SSH客户端，而这些客户端永远无法读取你的私钥。
 
 首先要打开 1Password SSH Agent ，让它在后台运行，为你的SSH客户端处理认证。打开 **1Password > 偏好设置 > 开发者**，勾选 “**使用 SSH agent**” 和 “**授权连接时显示密钥名称**”。
-<img src="https://cdn.mazhen.tech/images/202207081459057.png" alt="ssh agent" style="zoom: 50%;" />
+![img](https://cdn.mazhen.tech/images/202207081459057.png)
 
 为了确保 SSH Agent 在后台持续运行，需要在 **1Password > 偏好设置 > 通用** 中，勾选 “**在菜单栏中保留1Password**”。
 
-<img src="https://cdn.mazhen.tech/images/202207081511818.png" alt="menu" style="zoom: 50%;" />
+![img](https://cdn.mazhen.tech/images/202207081511818.png)
 
 ### 配置 SSH 客户端
 
@@ -144,9 +139,7 @@ ssh-add -L
 
 一种方式是把公钥上传到服务提供者的网站，将公钥和你的账号绑定。例如你可以在[GitHub SSH key settings](https://github.com/settings/ssh/new)页面上传公钥。 腾讯云的管理控制台也可以上传你的公钥，然后将公钥和你购买的服务器绑定。在页面填写公钥时，1Password会像填充密码一样进行自动填充。
 
-<img src="https://cdn.mazhen.tech/images/202207081602211.png" alt="add-public-key-github" style="zoom:33%;" />
-
-
+![img](https://cdn.mazhen.tech/images/202207081602211.png)
 
 另一种方式就是使用 `ssh-copy-id` 命令，直接将公钥拷贝到远程服务器。
 
@@ -160,15 +153,15 @@ Github 开始[支持使用 SSH Key 来签名提交](https://github.blog/changelo
 
 1. 在GitHub上生成Signing Key。访问[https://github.com/settings/keys](https://github.com/settings/keys) ，选择 “New SSH Key”，选择key的类型为 “Signing Key”，然后填入 1Password 管理的 SSH 公钥。
 
-<img src="https://cdn.mazhen.tech/images/202209291739050.webp" alt="Signing Key" style="zoom: 67%;" />
+![img](https://cdn.mazhen.tech/images/202209291739050.webp)
 
 2. 配置本地的 `.gitconfig`。在 1Password中，选择SSH Key，并在上面显示的横幅中选择 "配置 "选项：
 
-<img src="https://cdn.mazhen.tech/images/202209291749782.png" style="zoom: 33%;" />
+![img](https://cdn.mazhen.tech/images/202209291749782.png)
 
 按照提示，配置你的 `.gitconfig`文件。这些设置选择了你的 SSH key，并在 git commit 的时候使用 SSH Key 签名。
 
-<img src="https://cdn.mazhen.tech/images/202209291751352.png" style="zoom:33%;" />
+![img](https://cdn.mazhen.tech/images/202209291751352.png)
 
 ## “Sign in with” anything
 
