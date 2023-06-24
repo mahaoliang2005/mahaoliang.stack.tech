@@ -199,11 +199,11 @@ menu:
           url: https://github.com/mahaoliang2005
           params:
               icon: brand-github
-        - identifier: Bilibili
-          name: Bilibili
-          url: https://space.bilibili.com/391943000
+        - identifier: Youtube
+          name: Youtube
+          url: https://www.youtube.com/@mahaoliang
           params:
-              icon: bilibili
+              icon: youtube
         - identifier: mail
           name: Email
           url: "mailto:me@mahaoliang.tech"
