@@ -8,13 +8,15 @@ languages:
     en:
         languageName: English
         title: mahaoliang.tech
-        description: "macOS,gaming,geek"
         weight: 2
+        params:
+            description: "macOS,gaming,geek"
     zh-cn:
         languageName: 中文
         title: mahaoliang.tech
-        description: "macOS,gaming,geek"
         weight: 1
+        params:
+            description: "macOS,gaming,geek"
 
 # Change it to your Disqus shortname before using
 disqusShortname: mahaoliang-tech
