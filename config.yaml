@@ -204,6 +204,11 @@ menu:
           url: https://www.youtube.com/@mahaoliang
           params:
               icon: youtube
+        - identifier: Bilibili
+          name: Bilibili
+          url: https://space.bilibili.com/391943000
+          params:
+              icon: bilibili
         - identifier: mail
           name: Email
           url: "mailto:me@mahaoliang.tech"
