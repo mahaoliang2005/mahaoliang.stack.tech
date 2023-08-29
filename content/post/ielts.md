@@ -10,9 +10,9 @@ categories: [Learning]
 
 ## ∆口语
 
-口语对于我来说是最难的部分，不仅仅有社恐的因素，还有 **oral speaking **的语速问题（over 120 words per minute is standard）。
+口语对于我来说是最难的部分，不仅仅有社恐的因素，还有 **oral speaking** 的语速问题（over 120 words per minute is standard）。
 
-> * 特别要注意的是**口音**并不太重要，重要的是**例子！！栗子！！真实例子！！**不管是part 1，part 2，还是part 3，都需要例子，只不过每个part 的例子各有区别罢了。区别后面讲。
+> * 特别要注意的是**口音**并不太重要，重要的是 **例子！！栗子！！真实例子！！** 不管是part 1，part 2，还是part 3，都需要例子，只不过每个part 的例子各有区别罢了。区别后面讲。
 > * 不能有太多的**停顿**，一个问题最多两个停顿，多了就有可能扣分，再多些考官就会cut you out，然后你的心态就可能会崩，导致后面答题的状态，引发蝴蝶效应。
 > * 注意**时间限制**，part one和part three 一个问题回答一分钟左右，没有**准备时间**！！！part two 有一分钟的准备时间，给一张纸让考生写提示词，讲述时可以看。
 
@@ -30,7 +30,7 @@ categories: [Learning]
 
 在part 2 时，也要举**亲身经历**，题目怎么问就怎么答，讲出**具体细节**就可以了。准备时，最好四十秒写提示词，二十秒再在脑中过一遍，以免出现太多停顿。
 
-例如题目：**Describe a daily routine that you enjoy **
+例如题目：**Describe a daily routine that you enjoy**
 
 **You should say, what you do, when it became your daily routine, whether you will change it in the future, and explain why you enjoy it**
 
@@ -50,14 +50,14 @@ categories: [Learning]
 
 在part 3 时，回答的方式和part 1 差不多，只是第一人称要换成第三人称，如the people，they，them和their。讲述时按照***OREO***的方法就可以了，讲述时间不能超过1分钟，40秒就足够了。举例的时候，只用举一个就可以了，越详细越好。
 
- **例如：Q do people's routines differ on weekdays and weekends?** 
+ **例如：Q do people's routines differ on weekdays and weekends?**
 
 > eg.
 >
 > * The routines on weekdays are regular but routines on weekends are not. ***(opinion)***
 > * ***(reason)***
 > * For example, people have to go to school or go to the workplace at 7 am every weekday and have lunch at 12 o’clock, and they had to stay at school or work place until at about 6 PM. But on the weekends, people can get up late at around 11am if they want, having a big meal in the restaurant like the green tea restaurant for the crispy chicken and spicy tofu. And they can go home at any time they want.***(example)***
-> *  so the routines on weekends are flexible but on weekdays are stricted.***(opinion)***
+> * so the routines on weekends are flexible but on weekdays are stricted.***(opinion)***
 
 ### 如何讲好例子
 
@@ -73,7 +73,7 @@ categories: [Learning]
 
 > eg.
 >
-> * If a naughty kid is making noise, laughing and shouting, in a public place like the library named the Book City in Nan Shan     district in Shenzhen and his parents are not there ***（background）***, 
+> * If a naughty kid is making noise, laughing and shouting, in a public place like the library named the Book City in Nan Shan     district in Shenzhen and his parents are not there ***（background）***,
 > * I will not ***get mad*** at him or ***punch*** on his face. I will first ***grab*** his hands to ***stop*** him from running around the whole place, and ***tell*** him to be quiet.  ***（actions）***
 > * Then, I will ***send*** him to his parents to ***tell*** about his bad behavour, to ***make sure*** that he will not make noise in the public any more. ***（the end）***
 > * 注：加粗为 actions
@@ -101,8 +101,6 @@ categories: [Learning]
 > * 做信息匹配题时，要先读题，思考题目中的关键词会替换成什么。
 > * 人物匹配题和信息匹配题出现NB时，代表有一个人会被选两次，或有一段会选两个信息。
 
-
-
 ## ∆写作
 
 ### 类型
@@ -129,8 +127,6 @@ categories: [Learning]
 > * 一方面（1st side）
 > * 另一方面（2nd side）
 > * 总结（conclusion）
-
-
 
 ## ∆听力
 
