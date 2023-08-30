@@ -52,7 +52,7 @@ params:
         lastUpdated: "2006-01-02"
 
     sidebar:
-        emoji: 🍥
+        emoji:
         subtitle: May the Force be with you
         avatar:
             enabled: true
