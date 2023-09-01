@@ -28,6 +28,9 @@ categories: [life]
 祝你能热爱生活，活得幸福，K。
 
 我和K……
+
 ![我、K、渣](https://cdn.mahaoliang.tech/images/202309011347776.jpg)
+
 我和……
+
 ![我、方、叶](https://cdn.mahaoliang.tech/images/202309011347775.jpg)
