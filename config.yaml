@@ -53,7 +53,7 @@ params:
 
     sidebar:
         emoji:
-        subtitle: May the Force be with you
+        subtitle: 让花成花，让树成树
         avatar:
             enabled: true
             local: true
