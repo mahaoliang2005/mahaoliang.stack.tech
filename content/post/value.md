@@ -1,7 +1,7 @@
 ---
 title: "马眼看世界"
 date: 2023-09-03T20:55:25+08:00
-draft: true
+draft: false
 tags: [values]
 categories: [life]
 ---
