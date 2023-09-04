@@ -1,5 +1,5 @@
 ---
-title: "K"
+title: "再见，K"
 date: 2023-08-31T23:15:24+08:00
 draft: false
 tags: [friend]
