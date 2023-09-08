@@ -120,4 +120,4 @@ rm .ffuserdata
 
 ![图片不见啦](https://cdn.mahaoliang.tech/images/202309082257419.gif)
 
-视频 <https://cdn.mahaoliang.tech/images/202309082303161.mp>
+视频 <https://cdn.mahaoliang.tech/images/202309082303161.mp4>
