@@ -53,6 +53,7 @@ categories: [tech]
 * [Linux 是怎么工作的](https://book.douban.com/subject/35768243/)
 * [Linux 技术内幕](https://book.douban.com/subject/26931513/)
 * [Linux 内核设计与实现](https://book.douban.com/subject/6097773/) Linux Kernel Development
+* [深入理解Linux进程与内存](https://book.douban.com/subject/37015972/)
 * 极客时间：[Linux 内核技术实战课](https://time.geekbang.org/column/intro/100058001)
 * 极客时间：[编程高手必学的内存知识](https://time.geekbang.org/column/intro/100094901)
 * 极客时间：[容器实战高手课](https://time.geekbang.org/column/intro/100063801)
