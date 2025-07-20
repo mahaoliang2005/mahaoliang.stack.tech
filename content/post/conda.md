@@ -1,6 +1,6 @@
 ---
 title: "一文彻底搞懂 Python 环境管理神器 Conda"
-date: 2025-07-19T17:24:32+08:00
+date: 2025-07-15T17:24:32+08:00
 draft: false
 tags: [python]
 categories: [tech]

@@ -1,6 +1,6 @@
 ---
 title: "Python 虚拟环境管理工具选择建议"
-date: 2025-07-20T10:37:55+08:00
+date: 2025-07-17T10:37:55+08:00
 draft: false
 tags: [python]
 categories: [tech]

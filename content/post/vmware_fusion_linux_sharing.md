@@ -1,6 +1,6 @@
 ---
 title: "一步步教你在 VMware Fusion 中实现与 Linux 虚拟机的文件共享"
-date: 2025-07-19T11:41:57+08:00
+date: 2025-07-09T11:41:57+08:00
 draft: false
 tags: [linux, macos, vmware]
 categories: [tech]

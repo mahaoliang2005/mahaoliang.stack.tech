@@ -1,6 +1,6 @@
 ---
 title: "Python 虚拟环境管理：venv 实用指南"
-date: 2025-07-14T16:21:43+08:00
+date: 2025-07-01T16:21:43+08:00
 draft: false
 tags: [python]
 categories: [tech]

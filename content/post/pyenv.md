@@ -1,6 +1,6 @@
 ---
 title: "在 macOS 上安装和使用 pyenv"
-date: 2025-07-14T13:18:30+08:00
+date: 2025-06-14T13:18:30+08:00
 draft: false
 tags: [python]
 categories: [tech]

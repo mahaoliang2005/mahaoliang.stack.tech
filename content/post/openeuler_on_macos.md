@@ -1,6 +1,6 @@
 ---
 title: "macOS 上 VMWare Fusion 无法安装 OpenEuler 的问题解决"
-date: 2025-07-17T20:26:30+08:00
+date: 2025-07-07T20:26:30+08:00
 draft: false
 tags: [linux, macos, openEuler]
 categories: [tech]
