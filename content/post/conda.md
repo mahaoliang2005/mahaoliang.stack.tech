@@ -83,7 +83,7 @@ categories: [tech]
 2. 在 "Installation Type" 步骤，推荐选择 **“Just Me”**，这可以避免很多权限问题。
 3. **关键步骤：** 安装程序会提供两个高级选项，请按照推荐设置：
     *   **不勾选** "Add Miniconda3 to my PATH environment variable" (将 Miniconda 添加到系统 PATH)。官方不推荐这样做，因为它可能干扰系统上其他的软件。我们应当使用 Conda 自己的方式来激活环境。
-    *   **勾选** "Register Miniconda3 as my default Python" (将 Miniconda 注册为默认 Python)。如果你希望系统默认的 Python 就是 Conda 的，可以勾选，**但对于初学者，不勾选也无妨，保持系统纯净**。
+    *   **不勾选** "Register Miniconda3 as my default Python" (将 Miniconda 注册为默认 Python)。如果你希望系统默认的 Python 就是 Conda 的，可以勾选，**但对于初学者，不勾选也无妨，保持系统纯净**。
 4. 完成安装后，通过“开始菜单”找到并打开 **Anaconda Prompt (Miniconda3)** 来使用 Conda。
 
 * **macOS / Linux 用户**
@@ -386,7 +386,7 @@ Conda 所有的环境和包都严格限制在 Miniconda 的安装目录内。`co
 
 **唯一的“例外”是 `conda init` 命令。**
 
-在你安装 Miniconda 的最后一步，或者手动执行 `conda init` 时，它会在你的 Shell 配置文件（如 `~/.bashrc`, `~/.zshrc`）的末尾添加一小段脚本。
+在你安装 Miniconda 的最后一步，或者手动执行 `conda init zsh` 时，它会在你的 Shell 配置文件（`~/.zshrc`）的末尾添加一小段脚本。
 
 **这一步是必要且安全的。** 这段脚本的作用是让 `conda activate` 等命令能够正确地修改你当前 Shell 的环境变量。如果没有它，`conda` 命令本身可能可用，但 `activate` 这种需要与 Shell 交互的功能将无法工作。
 
@@ -463,9 +463,3 @@ Conda 功能强大，但它并非唯一的环境管理工具。在 Python 的世
 *   **强大的依赖处理：** 凭借其跨语言的包管理能力和预编译的二进制包，Conda 能够轻松处理那些依赖复杂底层库（如 C++, FORTRAN, CUDA）的科学计算包，这是它在数据科学领域封神的关键。
 
 我们对比了 Conda 与 venv/pip 和 pyenv 的区别，结论是：没有最好的工具，只有最适合你当前场景的工具。
-
-最后，我想分享我个人的选择策略，希望能给你提供一个更具体的参考：
-
-* **在 macOS 上，当我进行纯 Python 开发（如 Web 后端、爬虫脚本）时，我倾向于使用 `pyenv` + `venv` 的组合。** `pyenv` 负责管理和切换全局的 Python 版本，`venv` 则为每个项目创建极致轻量的虚拟环境。这套组合非常优雅，工具链清晰解耦，完全符合这类项目的需求。
-
-* **在我的 Windows 笔记本上，由于配备了 NVIDIA 显卡，主要用于 AI 和机器学习开发，我则毫不犹豫地选择 Conda。** 原因很简单：AI 开发常常依赖于复杂的 CUDA 和 cuDNN 工具链。在 Windows 平台上，手动配置这些非 Python 依赖是一件非常痛苦的事，而 Conda 可以通过 `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia` 这样的一行命令，完美地处理好所有依赖关系，这几乎是不可替代的便利。
