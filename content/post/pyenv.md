@@ -267,7 +267,7 @@ $ xcode-select --install
 
 | 命令                      | 描述                |
 | ------------------------- | ------------------- |
-| pyenv install --list      | 查看可安装版本      |
+| pyenv install -list      | 查看可安装版本      |
 | pyenv install <versio>    | 安装指定版本        |
 | pyenv versions            | 查看已安装版本      |
 | pyenv global  <versio>    | 设置全局默认版本    |
