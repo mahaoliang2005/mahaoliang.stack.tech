@@ -1,6 +1,6 @@
 ---
 title: "深入理解 Python 与 pip"
-date: 2025-07-23T08:05:26+08:00
+date: 2025-07-20T08:05:26+08:00
 draft: false
 tags: [python]
 categories: [tech]

@@ -1,6 +1,6 @@
 ---
 title: "现代 Python 项目管理指南"
-date: 2025-07-20T18:39:02+08:00
+date: 2025-07-23T18:39:02+08:00
 draft: false
 tags: [python]
 categories: [tech]
