@@ -1,5 +1,5 @@
 ---
-title: "Markdown语法"
+title: "Markdown 语法"
 date: 2023-09-03T19:58:18+08:00
 draft: false
 tags: [markdown]
@@ -61,7 +61,7 @@ categories: [tech]
 
 ### 2.4 插入图像
 
-使用:
+使用：
 
  ! [描述]
 
@@ -86,7 +86,7 @@ $+$
 
 效果图
 
-### 2.6常用数学符号
+### 2.6 常用数学符号
 
 ![图片不见啦](https://cdn.mahaoliang.tech/images/202309032024592.webp)
 

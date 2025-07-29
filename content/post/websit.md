@@ -34,9 +34,9 @@ categories: [tech]
 
 然后编辑文章内容，图片使用 picGo 上传到图床。
 
-## 将文章发布到GitHub
+## 将文章发布到 GitHub
 
-在保存本机网站的目录下运行下面的命令，将文章发布到GitHub
+在保存本机网站的目录下运行下面的命令，将文章发布到 GitHub
 
 ```
 git add .

@@ -1,24 +1,24 @@
 ---
-title: "1Password在macOS和iOS上的使用技巧"
+title: "1Password 在 macOS 和 iOS 上的使用技巧"
 date: 2022-09-29T22:06:18+08:00
 draft: false
 tags: [macos]
 categories: [tech]
 ---
 
-[1Password](http://1password.com)的最大优势是**跨平台**，不管是苹果系的iOS，macOS，还是Google的Android，微软的Windows，以及Linux，都能完美支持。让你在macOS上使用Safari，在Windows上使用Edge，Android上使用Chrome时，都能无缝得到密码管理的支持。这是苹果自带的密码管理所不能满足的。
+[1Password](http://1password.com)的最大优势是**跨平台**，不管是苹果系的 iOS，macOS，还是 Google 的 Android，微软的 Windows，以及 Linux，都能完美支持。让你在 macOS 上使用 Safari，在 Windows 上使用 Edge，Android 上使用 Chrome 时，都能无缝得到密码管理的支持。这是苹果自带的密码管理所不能满足的。
 
-如何使用好1Password，官方文档[Get started with 1Password](https://support.1password.com/explore/get-started/)是最好的学习素材，快速浏览一遍，基本会使用完全没有问题。
+如何使用好 1Password，官方文档[Get started with 1Password](https://support.1password.com/explore/get-started/)是最好的学习素材，快速浏览一遍，基本会使用完全没有问题。
 
-这篇文档我只重点介绍在 macOS 和 iOS 上使用1Password时的一些注意事项。
+这篇文档我只重点介绍在 macOS 和 iOS 上使用 1Password 时的一些注意事项。
 
 ## 安装
 
-macOS和iOS上的Safari，都需要打开**1Password插件**。
+macOS 和 iOS 上的 Safari，都需要打开**1Password 插件**。
 
-macOS的Safari插件直接在App Store安装。
+macOS 的 Safari 插件直接在 App Store 安装。
 
-iOS上插件的安装请参考：[Get to know 1Password for Safari on your iPhone or iPad](https://support.1password.com/getting-started-safari-ios/)
+iOS 上插件的安装请参考：[Get to know 1Password for Safari on your iPhone or iPad](https://support.1password.com/getting-started-safari-ios/)
 
 ![img](https://cdn.mazhen.tech/images/202206231710181.png)
 
@@ -30,11 +30,11 @@ iOS上插件的安装请参考：[Get to know 1Password for Safari on your iPhon
 
 ## 关掉内置密码管理
 
-由于Safari自带了密码管理，同时打开会和 1Password 有冲突，因此需要**关闭内置的密码管理**。
+由于 Safari 自带了密码管理，同时打开会和 1Password 有冲突，因此需要**关闭内置的密码管理**。
 
 具体操作参考官方文档[Turn off the built-in password manager in your browser](https://support.1password.com/disable-browser-password-manager/)。
 
-* **macOS 上Safari的设置**
+* **macOS 上 Safari 的设置**
 
 > To stop Safari from asking to save your passwords:
 >
@@ -44,7 +44,7 @@ iOS上插件的安装请参考：[Get to know 1Password for Safari on your iPhon
 >
 > ![Turn off the AutoFill settings in Safari preferences](https://cdn.mazhen.tech/images/202206231705991.png)
 
-* **iOS 上Safari的设置**
+* **iOS 上 Safari 的设置**
 
 > To stop Safari from asking to save your passwords:
 >
@@ -54,13 +54,13 @@ iOS上插件的安装请参考：[Get to know 1Password for Safari on your iPhon
 >
 > ![img](https://cdn.mazhen.tech/images/202206231707380.jpg)
 
-## iOS上App的支持
+## iOS 上 App 的支持
 
-iOS上app使用 1Password 的体验和 Safari 是一致的，只要app使用iOS系统标准键盘，在需要输入用户名和密码的地方，会自动出现钥匙图标，点击钥匙，会呼出1Password进行自动填充。
+iOS 上 app 使用 1Password 的体验和 Safari 是一致的，只要 app 使用 iOS 系统标准键盘，在需要输入用户名和密码的地方，会自动出现钥匙图标，点击钥匙，会呼出 1Password 进行自动填充。
 
 ![img](https://cdn.mazhen.tech/images/202206231708210.png)
 
-然而很多**国产银行类app**，基本都不使用iOS内置键盘，所以没法呼出1Password。这时候只能自己进入1Password 进行拷贝密码或创建密码的操作。
+然而很多**国产银行类 app**，基本都不使用 iOS 内置键盘，所以没法呼出 1Password。这时候只能自己进入 1Password 进行拷贝密码或创建密码的操作。
 
 ## Universal Autofill
 
@@ -70,37 +70,37 @@ iOS上app使用 1Password 的体验和 Safari 是一致的，只要app使用iOS�
 
 ## 两步认证
 
-对于已经支持1Password [两步认证](https://support.1password.com/one-time-passwords/) 的[网站](https://2fa.directory)，都已经迁移到了1Password。
+对于已经支持 1Password [两步认证](https://support.1password.com/one-time-passwords/) 的[网站](https://2fa.directory)，都已经迁移到了 1Password。
 
-如果1Password本身开启了两步认证，它就需要一个第三方的Authenticator，因为它不可能自己保存自己的one-time password，[官方文档](https://support.1password.com/two-factor-authentication/)已经说明。我选择了微软的[Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)。
+如果 1Password 本身开启了两步认证，它就需要一个第三方的 Authenticator，因为它不可能自己保存自己的 one-time password，[官方文档](https://support.1password.com/two-factor-authentication/)已经说明。我选择了微软的[Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)。
 
-微软的Authenticator可以备份和恢复，在换手机时非常方便。另外使用 Authenticator 登录微软账号时体验很好，不需要输入密码，只用在手机上确认即可，体验类似扫码登录，但又不用扫码:)
+微软的 Authenticator 可以备份和恢复，在换手机时非常方便。另外使用 Authenticator 登录微软账号时体验很好，不需要输入密码，只用在手机上确认即可，体验类似扫码登录，但又不用扫码:)
 
 ![img](https://cdn.mazhen.tech/images/202206231537685.JPG)
 
-## 管理SSH Keys
+## 管理 SSH Keys
 
-1Password 可以保存你的 SSH keys，并作为 [SSH agent](https://www.ssh.com/academy/ssh/agent) ，无缝整合 SSH 和 Git工作流。同时，在GitHub等平台需要填写公钥的地方，自动帮你拷贝填充公钥。
+1Password 可以保存你的 SSH keys，并作为 [SSH agent](https://www.ssh.com/academy/ssh/agent) ，无缝整合 SSH 和 Git 工作流。同时，在 GitHub 等平台需要填写公钥的地方，自动帮你拷贝填充公钥。
 
-### 生成或导入SSH keys
+### 生成或导入 SSH keys
 
-我们可以使用 `ssh-keygen` 命令自己生成 SSH key，也可以在 1Password 中创建SSH key 项目时自动生成。
+我们可以使用 `ssh-keygen` 命令自己生成 SSH key，也可以在 1Password 中创建 SSH key 项目时自动生成。
 ![img](https://cdn.mazhen.tech/images/202207081432280.png)
 
-### 开启1Password SSH Agent
+### 开启 1Password SSH Agent
 
-1Password SSH Agent 使用你保存在1Password中的 SSH Key，与你的Git和SSH工作流程无缝集成。它可以验证你的Git和SSH客户端，而这些客户端永远无法读取你的私钥。
+1Password SSH Agent 使用你保存在 1Password 中的 SSH Key，与你的 Git 和 SSH 工作流程无缝集成。它可以验证你的 Git 和 SSH 客户端，而这些客户端永远无法读取你的私钥。
 
-首先要打开 1Password SSH Agent ，让它在后台运行，为你的SSH客户端处理认证。打开 **1Password > 偏好设置 > 开发者**，勾选 “**使用 SSH agent**” 和 “**授权连接时显示密钥名称**”。
+首先要打开 1Password SSH Agent，让它在后台运行，为你的 SSH 客户端处理认证。打开 **1Password > 偏好设置 > 开发者**，勾选“**使用 SSH agent**”和“**授权连接时显示密钥名称**”。
 ![img](https://cdn.mazhen.tech/images/202207081459057.png)
 
-为了确保 SSH Agent 在后台持续运行，需要在 **1Password > 偏好设置 > 通用** 中，勾选 “**在菜单栏中保留1Password**”。
+为了确保 SSH Agent 在后台持续运行，需要在 **1Password > 偏好设置 > 通用** 中，勾选“**在菜单栏中保留 1Password**”。
 
 ![img](https://cdn.mazhen.tech/images/202207081511818.png)
 
 ### 配置 SSH 客户端
 
-为了让 SSH 客户端能使用1Password SSH agent，需要将 **IdentityAgent** 配置添加到 `~/.ssh/config`文件中：
+为了让 SSH 客户端能使用 1Password SSH agent，需要将 **IdentityAgent** 配置添加到 `~/.ssh/config`文件中：
 
 ```bash
 Host *
@@ -113,7 +113,7 @@ Host *
 export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
 ```
 
-如果觉得agent 路径过于复杂，可以先创建一个符号链接：
+如果觉得 agent 路径过于复杂，可以先创建一个符号链接：
 
 ```shell
 mkdir -p ~/.1password && ln -s ~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock ~/.1password/agent.sock
@@ -125,9 +125,9 @@ mkdir -p ~/.1password && ln -s ~/Library/Group\ Containers/2BUA8C4S2C.com.1passw
 export SSH_AUTH_SOCK=${HOME}/.1password/agent.sock
 ```
 
-现在 SSH 客户端就可以在登录远程主机时使用1Password SSH agent。
+现在 SSH 客户端就可以在登录远程主机时使用 1Password SSH agent。
 
-可以使用下面的命令查看，1Password SSH agent 帮我们管理的SSH Keys：
+可以使用下面的命令查看，1Password SSH agent 帮我们管理的 SSH Keys：
 
 ```shell
 ssh-add -L
@@ -137,7 +137,7 @@ ssh-add -L
 
 我们需要使用某种方式，将 SSH 公钥发布到远程服务器，以便对方能利用公钥验证你的身份。
 
-一种方式是把公钥上传到服务提供者的网站，将公钥和你的账号绑定。例如你可以在[GitHub SSH key settings](https://github.com/settings/ssh/new)页面上传公钥。 腾讯云的管理控制台也可以上传你的公钥，然后将公钥和你购买的服务器绑定。在页面填写公钥时，1Password会像填充密码一样进行自动填充。
+一种方式是把公钥上传到服务提供者的网站，将公钥和你的账号绑定。例如你可以在[GitHub SSH key settings](https://github.com/settings/ssh/new)页面上传公钥。腾讯云的管理控制台也可以上传你的公钥，然后将公钥和你购买的服务器绑定。在页面填写公钥时，1Password 会像填充密码一样进行自动填充。
 
 ![img](https://cdn.mazhen.tech/images/202207081602211.png)
 
@@ -151,11 +151,11 @@ Github 开始[支持使用 SSH Key 来签名提交](https://github.blog/changelo
 
 设置过程可以参考[Sign your Git commits with 1Password](https://blog.1password.com/git-commit-signing/)，主要包含两个步骤：
 
-1. 在GitHub上生成Signing Key。访问[https://github.com/settings/keys](https://github.com/settings/keys) ，选择 “New SSH Key”，选择key的类型为 “Signing Key”，然后填入 1Password 管理的 SSH 公钥。
+1. 在 GitHub 上生成 Signing Key。访问[https://github.com/settings/keys](https://github.com/settings/keys) ，选择“New SSH Key”，选择 key 的类型为“Signing Key”，然后填入 1Password 管理的 SSH 公钥。
 
 ![img](https://cdn.mazhen.tech/images/202209291739050.webp)
 
-2. 配置本地的 `.gitconfig`。在 1Password中，选择SSH Key，并在上面显示的横幅中选择 "配置 "选项：
+2. 配置本地的 `.gitconfig`。在 1Password 中，选择 SSH Key，并在上面显示的横幅中选择 "配置 "选项：
 
 ![img](https://cdn.mazhen.tech/images/202209291749782.png)
 
@@ -165,4 +165,4 @@ Github 开始[支持使用 SSH Key 来签名提交](https://github.blog/changelo
 
 ## “Sign in with” anything
 
-1Password将记住用户使用的第三方登录服务（如 sign in with Google）。看[官方消息](https://blog.1password.com/sign-in-with-anything-browser-beta/)，这个功能很快会上线。
+1Password 将记住用户使用的第三方登录服务（如 sign in with Google）。看[官方消息](https://blog.1password.com/sign-in-with-anything-browser-beta/)，这个功能很快会上线。

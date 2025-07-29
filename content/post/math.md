@@ -11,15 +11,15 @@ categories: [tech]
 
   - 打开文本编辑器。
   
-    你可以使用操作系统自带的文本编辑器（如记事本、TextEdit等），或者使用专业的代码编辑器（如Visual Studio Code、Sublime Text、Atom等）。
+    你可以使用操作系统自带的文本编辑器（如记事本、TextEdit 等），或者使用专业的代码编辑器（如 Visual Studio Code、Sublime Text、Atom 等）。
 
   - 在文本编辑器中创建一个新文件。
 
-    将你的Python代码复制粘贴到新文件中。
+    将你的 Python 代码复制粘贴到新文件中。
 保存文件时，指定文件名并确保使用 .py 作为文件的扩展名。
 例如，你可以将文件命名为 plot_example.py。
 
-- 代码示例（画的是一个y=x^2的图）：
+- 代码示例（画的是一个 y=x^2 的图）：
 
 ```import matplotlib.pyplot as plt
 import numpy as np
@@ -43,11 +43,11 @@ repr
 
 ## 运行
 
-- 我在Mac上用的是**visual studio code**，
-点击文件，用VS code打开。
+- 我在 Mac 上用的是**visual studio code**，
+点击文件，用 VS code 打开。
 
 ![图片不见啦](https://cdn.mahaoliang.tech/images/202309151521049.png)
 
-- 打开后，假如没装python的话，会显示要install python 编译器，下载就可以运行了了
+- 打开后，假如没装 python 的话，会显示要 install python 编译器，下载就可以运行了了
 
 ![图片不见啦](https://cdn.mahaoliang.tech/images/202309151527687.png)

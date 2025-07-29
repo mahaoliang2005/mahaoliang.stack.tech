@@ -1,5 +1,5 @@
 ---
-title: "AI 工具总结（2025年5月版）"
+title: "AI 工具总结（2025 年 5 月版）"
 date: 2025-05-05T10:38:49+08:00
 draft: false
 tags: [ai]

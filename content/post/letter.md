@@ -7,7 +7,7 @@ categories: [tech]
 ---
 ## 视频逐帧提取
 
-- 运用脚本来完成手动工作，即n秒一次截屏
+- 运用脚本来完成手动工作，即 n 秒一次截屏
 
 ```
 tell application "IINA"
@@ -27,13 +27,13 @@ tell application "IINA"
 end tell
 ```
 
-- 这里的第三个delay是来控制截屏间隙的，```delay 0.5```就是0.5秒截一次屏。
+- 这里的第三个 delay 是来控制截屏间隙的，```delay 0.5```就是 0.5 秒截一次屏。
 
-- 这个脚本只试用于Mac电脑，因为command+s是Mac上的快捷键。
+- 这个脚本只试用于 Mac 电脑，因为 command+s 是 Mac 上的快捷键。
 
-## png转svg，再转png
+## png 转 svg，再转 png
 
-- svg就是字符矢量图，但是它不能导入视频软件来制作视频，所以还要再转回png。
+- svg 就是字符矢量图，但是它不能导入视频软件来制作视频，所以还要再转回 png。
 
 1. copy pics to tencent server
 
@@ -57,7 +57,7 @@ sudo apt install imagemagick
 ./run.sh
 ```
 
-- 因为有很多张图片，所以写了一个脚本run.sh，就是将png->svg->png的动作重复，命令如下：
+- 因为有很多张图片，所以写了一个脚本 run.sh，就是将 png->svg->png 的动作重复，命令如下：
 
 ```
 # clean
@@ -101,7 +101,7 @@ scp mahaoliang:/home/ubuntu/works/output.png .
 
 ## 动画制作
 
-- 我用的是苹果的final cut pro，试用期是90天，假如到期了话就可以输入一下代码，重置时限：
+- 我用的是苹果的 final cut pro，试用期是 90 天，假如到期了话就可以输入一下代码，重置时限：
 
 ```
 cd ~
@@ -116,7 +116,7 @@ rm .ffuserdata
 
 ## 结尾
 
-最后送大家一个GIF
+最后送大家一个 GIF
 
 ![图片不见啦](https://cdn.mahaoliang.tech/images/202309082257419.gif)
 

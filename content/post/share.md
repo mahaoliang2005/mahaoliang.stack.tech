@@ -13,11 +13,11 @@ categories: [tech]
 
 ## 步骤
 
-- 图片要准备URL的链接，例如图中的<https://www.degraeve.com/images/lcsm.gif>
+- 图片要准备 URL 的链接，例如图中的<https://www.degraeve.com/images/lcsm.gif>
 
 ![图片不见啦](https://cdn.mahaoliang.tech/images/202309041308747.png)
 
-- 可以看到下面一行有三个选项，ASCII art、color HTML和RTTY。以下分别是这三个的效果图
+- 可以看到下面一行有三个选项，ASCII art、color HTML 和 RTTY。以下分别是这三个的效果图
 
 ![图片不见啦](https://cdn.mahaoliang.tech/images/202309041314002.png)
 

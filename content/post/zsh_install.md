@@ -1,5 +1,5 @@
 ---
-title: "Zsh的安装和配置"
+title: "Zsh 的安装和配置"
 date: 2025-01-05T21:06:07+08:00
 draft: false
 tags: [macos,linux]
@@ -57,7 +57,7 @@ plugins=(git zsh-autosuggestions)
 
 在命令行输入命令时，zsh-autosuggestions 会根据命令历史或命令补全进行建议提示。那么如何接受建议呢？
 
-Bash 和 Zsh 这样的 Unix shell 提供了两种主要的编辑模式：Emacs 模式和 Vi 模式，也就是说可以使用 Emacs 或 Vi 的快捷键来编辑命令行。 Emacs 模式是缺省模式。
+Bash 和 Zsh 这样的 Unix shell 提供了两种主要的编辑模式：Emacs 模式和 Vi 模式，也就是说可以使用 Emacs 或 Vi 的快捷键来编辑命令行。Emacs 模式是缺省模式。
 
 在 zsh-autosuggestions 的[缺省配置文件](https://github.com/zsh-users/zsh-autosuggestions/blob/master/src/config.zsh)中，定义接受建议的快捷键：
 
@@ -77,7 +77,7 @@ Bash 和 Zsh 这样的 Unix shell 提供了两种主要的编辑模式：Emacs �
 ...
 ```
 
-如果命令行处于Emacs 模式，那么：
+如果命令行处于 Emacs 模式，那么：
 
 * `ctrl-f` 或 `ctrl-e` 跳到行尾接受当前的建议
 * `option-f` 向前前进一个单词并接受建议

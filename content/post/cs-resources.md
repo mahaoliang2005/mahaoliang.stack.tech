@@ -28,7 +28,7 @@ categories: [tech]
 * [C 专家编程](https://book.douban.com/subject/35218533/) Sun 公司编译器和 OS 核心开发团队成员，对 C 的历史、语言特性、声明、数组、指针、链接、运行时、内存等问题进行了细致的讲解和深入的分析
 * [C from Scratch](https://github.com/theokwebb/C-from-Scratch) 一个学习 C 语言的从零开始的路线图，包括推荐的课程、项目和资源，以及进阶到 x86-64 汇编语言和操作系统内部的指导。
 * 极客时间：[深入 C 语言和程序运行原理](https://time.geekbang.org/column/intro/100100701)
-* [cdecl](https://cdecl.org/) 将C语言声明转换为英文描述，例如将这样复杂的声明 `void (\*signal(int, void (\*)(int)))(int)` 转换为文字描述：“declare signal as function (int, pointer to function (int) returning void) returning pointer to function (int) returning void”
+* [cdecl](https://cdecl.org/) 将 C 语言声明转换为英文描述，例如将这样复杂的声明 `void (\*signal(int, void (\*)(int)))(int)` 转换为文字描述：“declare signal as function (int, pointer to function (int) returning void) returning pointer to function (int) returning void”
 
 ## 程序运行原理
 
@@ -53,7 +53,7 @@ categories: [tech]
 * [Linux 是怎么工作的](https://book.douban.com/subject/35768243/)
 * [Linux 技术内幕](https://book.douban.com/subject/26931513/)
 * [Linux 内核设计与实现](https://book.douban.com/subject/6097773/) Linux Kernel Development
-* [深入理解Linux进程与内存](https://book.douban.com/subject/37015972/)
+* [深入理解 Linux 进程与内存](https://book.douban.com/subject/37015972/)
 * 极客时间：[Linux 内核技术实战课](https://time.geekbang.org/column/intro/100058001)
 * 极客时间：[编程高手必学的内存知识](https://time.geekbang.org/column/intro/100094901)
 * 极客时间：[容器实战高手课](https://time.geekbang.org/column/intro/100063801)

@@ -14,13 +14,13 @@ categories: [tech]
 
 然后对 **Pro** 进行配置。
 
-| Tab页 | 设置                                             |
+| Tab 页 | 设置                                             |
 | ----- | ------------------------------------------------ |
 | 文本  | 勾选“**平滑文本**”。可自定义背景透明度。         |
-| 窗口  | **窗口大小**：行 120 列30                        |
+| 窗口  | **窗口大小**：行 120 列 30                        |
 | 窗口  | 选择 **将行数限制为**：10000                     |
-| shell | **当shell退出时**，选择**当shell完全退出后关闭** |
-| 键盘  | 勾选 **将option键当Meta键**                      |
+| shell | **当 shell 退出时**，选择**当 shell 完全退出后关闭** |
+| 键盘  | 勾选 **将 option 键当 Meta 键**                      |
 | 高级  | 确认终端为 **xterm-256 color**                   |
 
 ## 安装**Xcode Command Line Tools**
@@ -51,7 +51,7 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 
 ## 安装和配置 Powerlevel10k
 
-[powerlevel10k](https://github.com/romkatv/powerlevel10k) 是一个Zsh的主题，具体很强的灵活性，并且非常美观。
+[powerlevel10k](https://github.com/romkatv/powerlevel10k) 是一个 Zsh 的主题，具体很强的灵活性，并且非常美观。
 
 首先安装 Powerlevel10k 所推荐的字体 Meslo Nerd Font，可以在命令行终端显示一些特殊符号。下载并安装下列字体：
 
@@ -60,9 +60,9 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 - [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
 - [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 
-然后更改终端的字体，在终端的偏好设置的的描述文件中，选择我们使用的 Pro，设置字体为`MesloLGS NF`， 字体大小为 14。
+然后更改终端的字体，在终端的偏好设置的的描述文件中，选择我们使用的 Pro，设置字体为`MesloLGS NF`，字体大小为 14。
 
-由于我们使用的是Oh My Zsh，可以把Powerlevel10k作为一个主题，安装到Oh My Zsh中：
+由于我们使用的是 Oh My Zsh，可以把 Powerlevel10k 作为一个主题，安装到 Oh My Zsh 中：
 
 ```shell
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -70,17 +70,17 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 如果遇到网络问题，可以参考上面，设置终端科学上网代理。
 
-编辑Oh My Zsh 的配置文件 **~/.zshrc**，设置主题为Powerlevel10k
+编辑 Oh My Zsh 的配置文件 **~/.zshrc**，设置主题为 Powerlevel10k
 
 ```bash
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 
-重新开启终端，按照提示进行Powerlevel10k的样式配置，完成后，我们漂亮的命令行终端配置就大功告成了。
+重新开启终端，按照提示进行 Powerlevel10k 的样式配置，完成后，我们漂亮的命令行终端配置就大功告成了。
 
 ![img](https://cdn.mahaoliang.tech/images/202207231529094.png)
 
-如果你在使用**VSCode**，需要在配置文件**settings.json**中设置下面两个配置，你就可以让**VSCode**的终端同样适配Powerlevel10k。
+如果你在使用**VSCode**，需要在配置文件**settings.json**中设置下面两个配置，你就可以让**VSCode**的终端同样适配 Powerlevel10k。
 
 ```
  "terminal.integrated.fontSize": 14, 
@@ -89,7 +89,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 ## 安装 zsh-autosuggestions 插件
 
-Oh My Zsh在安装完成后，已经自动配置了git插件。为了在命令行终端更快捷的工作，还可以为Oh My Zsh安装[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 插件。
+Oh My Zsh 在安装完成后，已经自动配置了 git 插件。为了在命令行终端更快捷的工作，还可以为 Oh My Zsh 安装[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 插件。
 
 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 提供类似于[Fish shell](https://fishshell.com) 自动建议功能，它会根据历史记录，在你键入命令的时候，提供非侵入式的自动建议。
 
