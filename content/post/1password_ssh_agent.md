@@ -102,10 +102,27 @@ Host my-dev-server
     ssh my-dev-server
     ```
     连接成功后，在**远程服务器**的终端上，再次运行验证命令：
+
     ```sh
     ssh-add -l
     ```
-    如果 Agent Forwarding 正常工作，这里显示的输出应该和你**本地电脑**的输出**完全一样**！如果提示 "The agent has no identities."，请返回第二步检查配置。
+    如果 Agent Forwarding 正常工作，这里显示的输出应该和你**本地电脑**的输出**完全一样**！
+    
+    如果提示“Could not open a connection to your authentication agent.”，请检查 SSH 服务配置，确保 `AllowAgentForwarding yes` 已启用。
+    
+    使用 vim 打开 `/etc/ssh/sshd_config` 文件，找到 `AllowAgentForwarding` 配置项，设置为 `yes`：
+
+    ```bash
+    AllowAgentForwarding yes
+    ```
+
+    保存后重启 SSH 服务使配置生效：
+
+    ```bash
+    systemctl restart sshd
+    ```
+
+    再次连接你的远程服务器，执行 `ssh-add -l`，确认 Agent Forwarding 正常工作。
 
 2.  **获取用于签名的公钥**
 
