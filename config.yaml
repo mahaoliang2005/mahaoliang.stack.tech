@@ -13,12 +13,48 @@ languages:
     weight: 2
     params:
       description: "macOS,gaming,geek"
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /en/
+          weight: 10
+        - identifier: about
+          name: About
+          url: /en/about/
+          weight: 20
+        - identifier: archives
+          name: Archives
+          url: /en/archives/
+          weight: 30
+        - identifier: search
+          name: Search
+          url: /en/search/
+          weight: 40
   zh-cn:
     languageName: 中文
     title: mahaoliang.tech
     weight: 1
     params:
       description: "macOS,gaming,geek"
+    menu:
+      main:
+        - identifier: home
+          name: 主页
+          url: /
+          weight: 10
+        - identifier: about
+          name: 关于
+          url: /关于/
+          weight: 20
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 30
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 40
 
 # Change it to your Disqus shortname before using
 disqusShortname: mahaoliang-tech
