@@ -47,7 +47,7 @@ params:
 
   footer:
     since: 2022
-    customText: '<a target="_blank" href= "https://beian.miit.gov.cn">粤ICP备2022085181号-2</a>'
+    customText: '<a target="_blank" href= "https://beian.miit.gov.cn">粤 ICP 备 2022085181 号 -2</a>'
 
   dateFormat:
     published: "2006-01-02"
