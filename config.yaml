@@ -218,7 +218,7 @@ menu:
         icon: bilibili
     - identifier: mail
       name: Email
-      url: "mailto:me@mahaoliang.tech"
+      url: "mailto:mahaoliang@gmail.com"
       params:
         icon: email
     - identifier: facebook
@@ -226,11 +226,11 @@ menu:
       url: "https://www.facebook.com/mahaoliang"
       params:
         icon: facebook
-    - identifier: telegram
-      name: telegram
-      url: "https://t.me/TTBJDTJZJ"
-      params:
-        icon: telegram
+    #- identifier: telegram
+    #  name: telegram
+    #  url: "https://t.me/TTBJDTJZJ"
+    #  params:
+    #    icon: telegram
 
 related:
   includeNewer: true
