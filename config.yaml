@@ -201,11 +201,16 @@ menu:
       url: https://github.com/mahaoliang2005
       params:
         icon: brand-github
-    - identifier: Youtube
-      name: Youtube
-      url: https://www.youtube.com/@Noah_Johnson988
+    - identifier: Gitee
+      name: Gitee
+      url: https://gitee.com/mahaoliang
       params:
-        icon: youtube
+        icon: gitee
+    #    - identifier: Youtube
+    #      name: Youtube
+    #      url: https://www.youtube.com/@Noah_Johnson988
+    #      params:
+    #        icon: youtube
     - identifier: Bilibili
       name: Bilibili
       url: https://space.bilibili.com/391943000
