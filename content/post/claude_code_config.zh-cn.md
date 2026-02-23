@@ -1,6 +1,6 @@
 ---
 title: "我的 Claude Code 配置实践"
-date: 2026-02-23T20:00:00+08:00
+date: 2026-02-23T12:00:00+08:00
 draft: false
 tags: [claude-code, mcp, ai]
 categories: [tech]
