@@ -1,6 +1,6 @@
 ---
-title: "Skills Management"
-date: 2026-08-16T09:33:22+08:00
+title: "本机 Skills 的安装和管理"
+date: 2026-06-16T09:33:22+08:00
 draft: false
 tags: [ai, agent, claude-code, skill]
 categories: [tech]
@@ -50,7 +50,7 @@ Codex 有自己的操作 chrome 浏览器的插件 + skill，所以 Kimi WebBrid
 
 ### [Mattpocock Skills](https://github.com/mattpocock/skills)
 
-Matt Pocock 的 [skills](https://github.com/mattpocock/skills) 是一套面向 AI 编程 agent 的工程方法论，小而精、可组合、基于数十年软件工程经验。
+Matt Pocock 的 [skills](https://github.com/mattpocock/skills) 是一套面向 agent 编程的工程方法论，小而精、可组合、基于数十年软件工程经验。
 
 
 ```bash
